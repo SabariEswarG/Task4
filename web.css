@@ -1,0 +1,209 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(228, 228, 228);
+    color: #fff;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 2px solid black;
+}
+
+#logo{
+    border-radius: 50%;
+    padding: 10px;
+    height: 75px;
+    width: 75px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: grey;
+}
+
+nav a:hover{
+    color: black;
+}
+
+.user-menu a {
+    display: inline-block;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: #ff5733;
+    padding: 10px 20px;
+    margin-left: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+#hero {
+    background-size: cover;
+    color: black;
+    padding: 100px 100px;
+}
+.hero-content {
+    margin-bottom: 250px;
+    display:block;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff5733;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#categories{
+    text-align: center;
+    background-color: rgb(227, 227, 227);
+    padding: 50px;
+    margin-bottom: 50px;
+}
+
+#categories h2{
+    padding:25px;
+}
+
+.cat ul,
+#cat ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+.cat li,
+#cat li {
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.cat li:hover,
+#cat li:hover {
+    transform: scale(1.1); 
+}
+
+#categories img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 25px;
+}
+
+h3 {
+    margin: 10px 0;
+}
+
+#are-you h1{
+    font-size: 2.5em;
+    margin: 25px;
+}
+
+#are-you{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+#stud-popular-courses{
+    text-align: center;
+    background-color: #d7d7d7;
+    padding: 25px;
+    font-family: sans-serif;
+    margin-bottom: 75px;
+}
+
+#stud img{
+    width:225px;
+    height: 225px;
+}
+
+#stud, #stud1 {
+    display: flex;
+    background-size: cover;
+    font-weight: bold;
+    justify-content: center;
+}
+
+#c, #cpp, #java {
+    box-shadow: rgb(2, 2, 2);
+    margin: 30px;
+    border-radius: 25px;
+    padding: 15px;
+    width: 330px;
+    height: 350px;
+    background-color: rgba(254, 252, 252, 0.5);
+    text-align: center;
+    margin-right: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+#c:hover, #cpp:hover, #java:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#prof-popular-courses{
+    text-align: center;
+    background-color: #d7d7d7;
+    padding: 25px;
+    font-family: sans-serif;
+    margin-bottom: 75px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-content {
+    margin-left: 550px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-social-icons {
+    display: flex;
+    margin-left: 700px;
+}
+
+.footer-social-icons a {
+    color: #fff; 
+    margin-right: 25px;
+    font-size: 30px; 
+    transition: color 0.3s ease; 
+}
+
+.footer-social-icons a:hover {
+    color: #bbb;
+}
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+}
